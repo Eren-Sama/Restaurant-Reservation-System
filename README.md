@@ -51,18 +51,6 @@ python "restaurant_reservation_system.py"
 
 ---
 
-## 🧭 Usage Steps
-
-1. Launch the app and enter your **name** and **contact info**  
-2. Choose your **reservation date** and **time**  
-3. Set the **number of guests** joining  
-4. Select your preferred **table type**  
-5. Add any **special requests** if needed  
-6. Click **Book Now** to proceed to **PayPal checkout**  
-7. Receive a **confirmation** with full reservation details ✅  
-
----
-
 ## 📬 Contact
 
 For feedback, suggestions, or questions — reach out!  
