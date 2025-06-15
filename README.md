@@ -46,7 +46,7 @@ cd Restaurant-Reservation-System
 pip install -r requirements.txt
 
 # 3️⃣ Run the app
-python "restaurant_reservation_system.py"
+python "Restaurant Reservation System.py"
 ```
 
 ---
