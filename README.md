@@ -1,29 +1,75 @@
-# Restaurant-Reservation-System
-The Python-based Restaurant Reservation System using PySimpleGUI simplifies table bookings with input validation, date/time selection, guest count, table type selection, and PayPal integration for payments. Efficient OOP principles and GUI design ensure a smooth user experience, ideal for restaurant reservations.
+<h2 align="center">🍽️ Welcome to Restaurant Reservation System 🪑</h2>
 
-Our Restaurant Reservation System is a Python-based desktop application developed using PySimpleGUI, designed to streamline the process of booking tables in a restaurant. This system provides an intuitive user interface with various functionalities, including input validation, date and time selection, guest count adjustment, table type selection, and seamless integration with PayPal for secure online payments.
+<p align="center">A sleek Python & PySimpleGUI desktop app for reserving tables, selecting dates, customizing seating, and securely paying via PayPal.</p>
 
-Key Features:
+---
 
-User-Friendly Interface: The system offers a user-friendly interface built with PySimpleGUI, ensuring easy navigation and interaction for users.
+## 💡 About the Project
 
-Input Validation: Comprehensive input validation ensures that users provide accurate and complete information, reducing errors and improving data integrity.
+**Restaurant Reservation System** is a modern desktop-based application built with **Python** and **PySimpleGUI**. It simplifies the table booking experience by allowing users to input details, choose reservation slots, pick table types, and complete secure payments via **PayPal** — all in a user-friendly interface.
 
-Date and Time Selection: Users can conveniently select the desired date and time for their reservation using the integrated calendar and time input fields.
+---
 
-Guest Count Adjustment: The system allows users to specify the number of guests accompanying them, enabling restaurants to allocate appropriate seating arrangements.
+## ✨ Features
 
-Table Type Selection: Users can choose from various table types, such as Exclusive, Luxury, Deluxe, Modern, and Classic, based on their preferences and requirements.
+- 🗓️ **Pick reservation date & time** using an integrated calendar and time input  
+- 👥 **Specify guest count** with dynamic field validation  
+- 🪑 **Choose table types** — Exclusive, Luxury, Deluxe, Modern, or Classic  
+- ✅ **Robust input validation** to ensure accurate booking data  
+- 💳 **Secure payments** via **PayPal integration**  
+- 📄 **Instant reservation confirmation** with complete details  
+- 🧭 **Simple, intuitive interface** powered by PySimpleGUI  
+- 🔧 **Built with OOP principles** for better maintainability  
 
-PayPal Integration: Seamless integration with PayPal enables secure online payments, offering users a convenient and trusted payment gateway for completing their reservations.
+---
 
-How to Use:
+## 🛠️ Tech Stack
 
-Installation: Clone or download the repository to your local machine.
-Dependencies: Ensure that you have Python installed, along with the required libraries specified in the requirements.txt file. You can install them using pip install -r requirements.txt.
-Execution: Run the restaurant_reservation_system.py script to launch the application.
-Reservation: Enter the required details, including name, contact information, date, time, guest count, table type, and any special requests.
-Payment: Upon clicking the "Book" button, the system redirects users to the PayPal payment gateway for secure online payment processing.
-Confirmation: After successful payment, users receive a confirmation message displaying the details of their reservation, including the total price.
+| Category             | Technologies & Tools                                                                                             |
+|----------------------|------------------------------------------------------------------------------------------------------------------|
+| **Programming Language** | ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)       |
+| **GUI Framework**    | ![PySimpleGUI](https://img.shields.io/badge/PySimpleGUI-0891b2?style=flat&logo=windowsterminal&logoColor=white) |
+| **Payment Integration** | ![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)        |
+| **Design Principles**| Modular Architecture, Object-Oriented Programming (OOP)                                                          |
+| **Data Handling**    | Python Dictionaries & Lists (for table types and user input), Optional JSON for storage                         |
 
-Feel free to contribute to this project by submitting bug fixes, feature enhancements, or any other improvements. Happy movie booking!
+---
+
+## 🚀 How to Run
+
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/Eren-Sama/Restaurant-Reservation-System.git
+cd Restaurant-Reservation-System
+
+# 2️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Run the app
+python "restaurant_reservation_system.py"
+```
+
+---
+
+## 🧭 Usage Steps
+
+1. Launch the app and enter your **name** and **contact info**  
+2. Choose your **reservation date** and **time**  
+3. Set the **number of guests** joining  
+4. Select your preferred **table type**  
+5. Add any **special requests** if needed  
+6. Click **Book Now** to proceed to **PayPal checkout**  
+7. Receive a **confirmation** with full reservation details ✅  
+
+---
+
+## 📬 Contact
+
+For feedback, suggestions, or questions — reach out!  
+📧 **eklavya1675@gmail.com**
+
+---
+
+## 💬 Final Note
+
+> “Great dining starts with a great reservation. Book your table now with ease.”
